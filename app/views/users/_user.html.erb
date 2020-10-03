@@ -3,4 +3,7 @@
   <span class="profile-link">
     <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
   </span>
+  <span class="profile-link">
+    <%= invite_or_pending_btn(user) %>
+  </span>
 </li>
