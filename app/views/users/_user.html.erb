@@ -4,3 +4,14 @@
     <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
   </span>
 </li>
+
+<% for user in @users %>
+  <div class="user">
+    <p>
+      <strong><%=h user.name %></strong>
+      <%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %>
+      <div class="clear"></div>
+    </p>
+  </div>
+<% end %>
+
