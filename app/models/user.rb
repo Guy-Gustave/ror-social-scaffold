@@ -60,5 +60,4 @@ class User < ApplicationRecord
     f_ids = friends.map(&:id)
     f_ids << id
   end
-
 end

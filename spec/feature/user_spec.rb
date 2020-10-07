@@ -12,5 +12,4 @@ describe 'the signin process', type: :feature do
     expect(current_path).to eq(root_path)
     expect(page).to have_text('Signed in successfully.')
   end
-
 end

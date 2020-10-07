@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Comment, type: :model do
   context 'validation test' do
-    it{ is_expected.to validate_presence_of :content }
+    it { is_expected.to validate_presence_of :content }
 
     it do
       should validate_length_of(:content)

@@ -1,4 +1,3 @@
-
 RSpec.describe 'friendship controller', type: :feature do
   let(:test_user) do
     User.new(name: 'test_user', email: 'guy@g.com',
