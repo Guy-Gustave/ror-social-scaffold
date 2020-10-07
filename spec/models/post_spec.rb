@@ -7,4 +7,13 @@ RSpec.describe Post, type: :model do
       expect(post1) == true
     end
   end
+
+  context 'has many comments and likes' do
+    it { should have_many(:comments) }
+    it { should have_many(:likes) }
+  end
+
+  context 'should belong to user model' do
+    it { should belong_to(:user) }
+  end
 end
