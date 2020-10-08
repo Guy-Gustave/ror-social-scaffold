@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo](https://git.heroku.com/chats-website.git)
+[Live Demo](https://chats-website.herokuapp.com/users/sign_in)
 
 
 
