@@ -60,7 +60,8 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rpsec --format documentation
+> 
+    rspec (--format documentation)
 ```
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
@@ -70,8 +71,11 @@ Open `http://localhost:3000/` in your browser.
 TBA
 
 ## Authors
+👨 **Guy Gustave NIGABA**
+- Github: [@Gustave](https://github.com/Guy-Gustave)
+- Linkedin: [Guy-Gustave](https://www.linkedin.com/in/guy-gustave-nigaba-7988ba181/)
+- E-mail: [guymoustapha@gmail.com](guymoustapha@gmail.com)
 
-TBA
 
 ## 🤝 Contributing
 
