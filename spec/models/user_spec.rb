@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  context "validations text" do
+  context 'validations text' do
     it 'should save successfully' do
       user = User.new(name: 'User1', email: 'user@gmail.com', password: 'password').save
       expect(user) == true

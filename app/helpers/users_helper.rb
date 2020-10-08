@@ -9,7 +9,7 @@ module UsersHelper
       out << link_to('pending friendship', '#', class: 'profile-link f-link')
     elsif current_user.friend_requests.include?(obj)
       out << link_to('Accept', invite_path(user_id: obj.id), class: 'profile-link f-link', method: :put)
-      out << ' | '
+      out << ' or '
       out << link_to('Reject', reject_path(user_id: obj.id), class: 'profile-link f-link', method: :delete)
     else
       out << link_to('Invite to friendship', invite_path(user_id: obj.id), class: 'profile-link f-link', method: :post)
